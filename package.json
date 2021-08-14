@@ -1,6 +1,6 @@
 {
   "name": "@quinntyne/until-disconnected",
-  "version": "1.0.0",
+  "version": "0.1.0-alpha.0",
   "private": false,
   "scripts": {
     "serve": "live-server",
