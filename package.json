@@ -1,0 +1,39 @@
+{
+  "name": "@quinntyne/until-disconnected",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "serve": "live-server",
+    "build": "npx webpack --env production",
+    "watch": "npx webpack watch"
+  },
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "dist/*"
+      ]
+    }
+  },
+  "dependencies": {
+    "lit": "^2.0.0-rc.2",
+    "rxjs": "^7.3.0"
+  },
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.2.0",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.1.0",
+    "prettier": "^2.3.2",
+    "sass": "^1.37.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "ts-loader": "^9.2.4",
+    "typescript": "^4.3.5",
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2",
+    "live-server": "^1.2.1"
+  }
+}
